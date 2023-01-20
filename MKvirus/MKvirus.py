@@ -2,10 +2,12 @@ import subprocess
 from getpass import *
 import time
 import subprocess
+"""
 for i in range(148):
     print("\033[48;2;164;25;25m" + " "*i + "\033[0m")
     time.sleep(0.1)
     subprocess.run("clear")
+"""
 User = getuser()
 with open("/etc/hostname",encoding="shift_jis") as f:
     hostname = f.read()[:-1]
